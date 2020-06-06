@@ -19,7 +19,7 @@ struct TCBlock { //thread control block : info about current threads here
 	unsigned* Stack = nullptr;
 	TCBlock* next = nullptr;
 	void* returnValue;
-	//graph
+	//graph for deadlock checking 
 	bool visited = false;
 	std::list<TCBlock*> adjacent_list;
 };
