@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="antideadlock.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="_main.cpp" />
+    <ClCompile Include="threadlibrary.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="antideadlock.h" />
+    <ClInclude Include="threadlibrary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
